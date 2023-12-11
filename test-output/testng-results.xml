@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-08T11:37:39 IST" name="Default suite" finished-at="2023-12-08T11:37:39 IST" duration-ms="73">
+  <suite started-at="2023-12-11T11:12:58 IST" name="Default suite" finished-at="2023-12-11T11:13:27 IST" duration-ms="28935">
     <groups>
     </groups>
-    <test started-at="2023-12-08T11:37:39 IST" name="Default test" finished-at="2023-12-08T11:37:39 IST" duration-ms="73">
-      <class name="dec8th.Adactin2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="setUp" finished-at="2023-12-08T11:37:39 IST" duration-ms="9" status="PASS">
+    <test started-at="2023-12-11T11:12:58 IST" name="Default test" finished-at="2023-12-11T11:13:27 IST" duration-ms="28935">
+      <class name="dec11th.ValidateLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dec11th.ValidateLogin@69f1a286]" started-at="2023-12-11T11:12:59 IST" name="setUp" finished-at="2023-12-11T11:13:27 IST" duration-ms="28546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registrationTest()[pri:0, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="registrationTest" finished-at="2023-12-08T11:37:39 IST" duration-ms="6" status="PASS">
+        <test-method signature="validateLoginUsingCredentialsBlank()[pri:0, instance:dec11th.ValidateLogin@69f1a286]" started-at="2023-12-11T11:13:27 IST" name="validateLoginUsingCredentialsBlank" finished-at="2023-12-11T11:13:27 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="teardown" finished-at="2023-12-08T11:37:39 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- validateLoginUsingCredentialsBlank -->
+        <test-method is-config="true" signature="teardowm()[pri:0, instance:dec11th.ValidateLogin@69f1a286]" started-at="2023-12-11T11:13:27 IST" name="teardowm" finished-at="2023-12-11T11:13:27 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="loginTest()[pri:1, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="loginTest" finished-at="2023-12-08T11:37:39 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="setUp" finished-at="2023-12-08T11:37:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="teardown" finished-at="2023-12-08T11:37:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="forgotPassword()[pri:2, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="forgotPassword" finished-at="2023-12-08T11:37:39 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPassword -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="setUp" finished-at="2023-12-08T11:37:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="teardown" finished-at="2023-12-08T11:37:39 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="changePasswordTest()[pri:3, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="changePasswordTest" finished-at="2023-12-08T11:37:39 IST" depends-on-methods="dec8th.Adactin2.loginTest" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changePasswordTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="setUp" finished-at="2023-12-08T11:37:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dec8th.Adactin2@ae3540e]" started-at="2023-12-08T11:37:39 IST" name="teardown" finished-at="2023-12-08T11:37:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- dec8th.Adactin2 -->
+        </test-method> <!-- teardowm -->
+      </class> <!-- dec11th.ValidateLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
