@@ -1,4 +1,4 @@
-package dec11th;
+package dec12th;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,16 +10,15 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class MouseHover {
-	
+
+public class DragAndDrop {
 WebDriver driver;
-	
 	@BeforeMethod
 	public void setUp()
 	{
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
-		driver.get("https://www.icicibank.com/");
+		driver.get("https://jqueryui.com/droppable/");
 		driver.manage().window().maximize();
 	}
 	
@@ -31,19 +30,17 @@ WebDriver driver;
 	}
 	
 	@Test
-	public void mouseHoverTest()
+	public void dragAndDropTest()
 	{
+		
+		driver.switchTo().frame(0);
 		
 		Actions action=new Actions(driver);
 		
-		action.moveToElement(driver.findElement(By.xpath("//span[text()='Loans']")))
-		          .pause(3000)
-		          .click(driver.findElement(By.xpath("//a[contains(text(),'Two Wheeler Loan')]")))
-		          .build()
-				 .perform();
-		
-		
-		
+		action.dragAndDrop(driver.findElement(By.xpath("//div[@id='draggable']")), 
+				                         driver.findElement(By.xpath("//div[@id='droppable']")))
+				  .build()
+				  .perform();
 	}
 
 }
