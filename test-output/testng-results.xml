@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-15T11:35:52 IST" name="Default suite" finished-at="2023-12-15T11:36:02 IST" duration-ms="9625">
+  <suite started-at="2023-12-18T11:33:17 IST" name="Default suite" finished-at="2023-12-18T11:33:29 IST" duration-ms="11502">
     <groups>
     </groups>
-    <test started-at="2023-12-15T11:35:52 IST" name="Default test" finished-at="2023-12-15T11:36:02 IST" duration-ms="9625">
-      <class name="dec15th.ScreenshotDemo1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:dec15th.ScreenshotDemo1@69f1a286]" started-at="2023-12-15T11:35:52 IST" name="setUp" finished-at="2023-12-15T11:35:58 IST" duration-ms="5893" status="PASS">
+    <test started-at="2023-12-18T11:33:17 IST" name="Default test" finished-at="2023-12-18T11:33:29 IST" duration-ms="11502">
+      <class name="dec18th.WaitsDemo3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dec18th.WaitsDemo3@69f1a286]" started-at="2023-12-18T11:33:17 IST" name="setUp" finished-at="2023-12-18T11:33:20 IST" duration-ms="2770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginTest()[pri:0, instance:dec15th.ScreenshotDemo1@69f1a286]" started-at="2023-12-15T11:35:58 IST" name="validateLoginTest" finished-at="2023-12-15T11:35:59 IST" duration-ms="432" status="PASS">
+        <test-method signature="validateLoginTest()[pri:0, instance:dec18th.WaitsDemo3@69f1a286]" started-at="2023-12-18T11:33:20 IST" name="validateLoginTest" finished-at="2023-12-18T11:33:25 IST" duration-ms="5372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginTest -->
-        <test-method is-config="true" signature="teardowm()[pri:0, instance:dec15th.ScreenshotDemo1@69f1a286]" started-at="2023-12-15T11:35:59 IST" name="teardowm" finished-at="2023-12-15T11:36:02 IST" duration-ms="3264" status="PASS">
+        <test-method is-config="true" signature="teardowm()[pri:0, instance:dec18th.WaitsDemo3@69f1a286]" started-at="2023-12-18T11:33:25 IST" name="teardowm" finished-at="2023-12-18T11:33:29 IST" duration-ms="3322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardowm -->
-      </class> <!-- dec15th.ScreenshotDemo1 -->
+      </class> <!-- dec18th.WaitsDemo3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

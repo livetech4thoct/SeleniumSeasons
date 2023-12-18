@@ -2,6 +2,8 @@ package dec15th;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 
@@ -41,7 +43,15 @@ public class ScreenshotDemo1 {
 		
 		File srcFile=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		
-		FileUtils.copyFile(srcFile, new File("AdactinLogin.png"));
+		String pattern = "yyyy-MM-dd HH:mm:ss";
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+		
+		String date = simpleDateFormat.format(new Date());
+		System.out.println(date);
+		date=date.replace(":", "-");
+		System.out.println(date);
+		
+		FileUtils.copyFile(srcFile, new File("AdactinLogin"+date+".png"));
 		
 		
 		
