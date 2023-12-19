@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-18T11:33:17 IST" name="Default suite" finished-at="2023-12-18T11:33:29 IST" duration-ms="11502">
+  <suite started-at="2023-12-19T11:30:21 IST" name="Default suite" finished-at="2023-12-19T11:31:37 IST" duration-ms="75213">
     <groups>
     </groups>
-    <test started-at="2023-12-18T11:33:17 IST" name="Default test" finished-at="2023-12-18T11:33:29 IST" duration-ms="11502">
-      <class name="dec18th.WaitsDemo3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:dec18th.WaitsDemo3@69f1a286]" started-at="2023-12-18T11:33:17 IST" name="setUp" finished-at="2023-12-18T11:33:20 IST" duration-ms="2770" status="PASS">
+    <test started-at="2023-12-19T11:30:21 IST" name="Default test" finished-at="2023-12-19T11:31:37 IST" duration-ms="75213">
+      <class name="dec19th.WebTable3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dec19th.WebTable3@69f1a286]" started-at="2023-12-19T11:30:21 IST" name="setUp" finished-at="2023-12-19T11:31:28 IST" duration-ms="66626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginTest()[pri:0, instance:dec18th.WaitsDemo3@69f1a286]" started-at="2023-12-18T11:33:20 IST" name="validateLoginTest" finished-at="2023-12-18T11:33:25 IST" duration-ms="5372" status="PASS">
+        <test-method signature="webTableTest()[pri:0, instance:dec19th.WebTable3@69f1a286]" started-at="2023-12-19T11:31:28 IST" name="webTableTest" finished-at="2023-12-19T11:31:33 IST" duration-ms="5192" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginTest -->
-        <test-method is-config="true" signature="teardowm()[pri:0, instance:dec18th.WaitsDemo3@69f1a286]" started-at="2023-12-18T11:33:25 IST" name="teardowm" finished-at="2023-12-18T11:33:29 IST" duration-ms="3322" status="PASS">
+        </test-method> <!-- webTableTest -->
+        <test-method is-config="true" signature="teardowm()[pri:0, instance:dec19th.WebTable3@69f1a286]" started-at="2023-12-19T11:31:33 IST" name="teardowm" finished-at="2023-12-19T11:31:37 IST" duration-ms="3359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardowm -->
-      </class> <!-- dec18th.WaitsDemo3 -->
+      </class> <!-- dec19th.WebTable3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
